@@ -6,14 +6,15 @@ import './index.css';
 // import reportWebVitals from './reportWebVitals';
 // import Hello from './components/Hello'
 // import ContainerSample from './components/ContainerSample'
-import ContextSample from './components/ContextSample'
+// import ContextSample from './components/ContextSample'
+import Parent from './components/Parent'
 
 // const root = ReactDOM.createRoot(
 //   document.getElementById('root') as HTMLElement
 // );
 ReactDOM.render(
   <React.StrictMode>
-    <ContextSample />
+    <Parent />
   </React.StrictMode>,
   document.getElementById('root')
   // <React.StrictMode>
