@@ -7,14 +7,15 @@ import './index.css';
 // import Hello from './components/Hello'
 // import ContainerSample from './components/ContainerSample'
 // import ContextSample from './components/ContextSample'
-import Parent from './components/Parent'
+// import Parent from './components/Parent'
+import UseMemo from './components/UseMemoSample'
 
 // const root = ReactDOM.createRoot(
 //   document.getElementById('root') as HTMLElement
 // );
 ReactDOM.render(
   <React.StrictMode>
-    <Parent />
+    <UseMemo />
   </React.StrictMode>,
   document.getElementById('root')
   // <React.StrictMode>
